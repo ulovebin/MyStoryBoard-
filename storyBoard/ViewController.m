@@ -16,12 +16,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+   
+    self.view.backgroundColor=[UIColor blueColor];
+    
+    UILabel *lable=[[UILabel alloc]initWithFrame:CGRectMake(20, 150, self.view.frame.size.width-40, 40)];
+    lable.text=@"可以正常显示";
+    lable.textColor=[UIColor blackColor];
+    lable.font=[UIFont systemFontOfSize:20];
+    lable.textAlignment=NSTextAlignmentCenter;
+    [self.view addSubview:lable];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
 
 @end

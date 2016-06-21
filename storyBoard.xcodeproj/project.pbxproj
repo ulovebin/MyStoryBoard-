@@ -15,6 +15,8 @@
 		5710A4461D19019000C65319 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5710A4441D19019000C65319 /* LaunchScreen.storyboard */; };
 		5710A4511D19019000C65319 /* storyBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5710A4501D19019000C65319 /* storyBoardTests.m */; };
 		5710A45C1D19019000C65319 /* storyBoardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5710A45B1D19019000C65319 /* storyBoardUITests.m */; };
+		5710A46F1D1907A500C65319 /* qq.png in Resources */ = {isa = PBXBuildFile; fileRef = 5710A46E1D1907A500C65319 /* qq.png */; };
+		5710A47D1D19146B00C65319 /* TableViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 5710A47C1D19146B00C65319 /* TableViewController1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		5710A4571D19019000C65319 /* storyBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = storyBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5710A45B1D19019000C65319 /* storyBoardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = storyBoardUITests.m; sourceTree = "<group>"; };
 		5710A45D1D19019000C65319 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5710A46E1D1907A500C65319 /* qq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qq.png; sourceTree = "<group>"; };
+		5710A47B1D19146B00C65319 /* TableViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController1.h; sourceTree = "<group>"; };
+		5710A47C1D19146B00C65319 /* TableViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +108,12 @@
 			children = (
 				5710A4391D19019000C65319 /* AppDelegate.h */,
 				5710A43A1D19019000C65319 /* AppDelegate.m */,
+				5710A43F1D19019000C65319 /* Main.storyboard */,
+				5710A47B1D19146B00C65319 /* TableViewController1.h */,
+				5710A47C1D19146B00C65319 /* TableViewController1.m */,
 				5710A43C1D19019000C65319 /* ViewController.h */,
 				5710A43D1D19019000C65319 /* ViewController.m */,
-				5710A43F1D19019000C65319 /* Main.storyboard */,
+				5710A46E1D1907A500C65319 /* qq.png */,
 				5710A4421D19019000C65319 /* Assets.xcassets */,
 				5710A4441D19019000C65319 /* LaunchScreen.storyboard */,
 				5710A4471D19019000C65319 /* Info.plist */,
@@ -243,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5710A46F1D1907A500C65319 /* qq.png in Resources */,
 				5710A4461D19019000C65319 /* LaunchScreen.storyboard in Resources */,
 				5710A4431D19019000C65319 /* Assets.xcassets in Resources */,
 				5710A4411D19019000C65319 /* Main.storyboard in Resources */,
@@ -271,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5710A43E1D19019000C65319 /* ViewController.m in Sources */,
+				5710A47D1D19146B00C65319 /* TableViewController1.m in Sources */,
 				5710A43B1D19019000C65319 /* AppDelegate.m in Sources */,
 				5710A4381D19019000C65319 /* main.m in Sources */,
 			);
@@ -416,6 +426,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = storyBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Qmap.storyBoard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,6 +438,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = storyBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Qmap.storyBoard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +510,7 @@
 				5710A4621D19019000C65319 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5710A4631D19019000C65319 /* Build configuration list for PBXNativeTarget "storyBoardTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +519,7 @@
 				5710A4651D19019000C65319 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5710A4661D19019000C65319 /* Build configuration list for PBXNativeTarget "storyBoardUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +528,7 @@
 				5710A4681D19019000C65319 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
